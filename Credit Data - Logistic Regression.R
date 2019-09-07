@@ -1,9 +1,7 @@
-setwd("~/Third Year/Statistical Analysis 3/Final Project")
 require(MASS)
 require(caret)
 
 credit_data <- read.table("CreditData.txt",sep = " ",header=FALSE, na.strings = "NA")
-
 
 #Setting seed with randomly chosen number between 1 and 1 million (commented out after 1 run so number won't change)
 #Setting seed ensures training and test data remain the same
